@@ -725,5 +725,5 @@ if (CLIENT_SIDE_BUILD) {
     if (aar == null) {
         throw GradleScriptException("AAR build failed. No AAR found in ${aarDir}.")
     }
-    artifacts.add("default", aar)
+    // artifacts.add("default", aar)
 }
